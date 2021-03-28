@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+header img {
+  height: 100px;
+  margin: 10px;
+}
+
+header h1 {
+  color: white;
+}

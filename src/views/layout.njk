@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {% include "styles.njk" %}
+
+  <title>Grupo Tesseract</title>
+</head>
+<body>
+  <header>
+    <a href="/"><img src="/img/img-tesseract.jpeg" alt="Logo Tesseract"></a>
+    <h1>Grupo Tesseract</h1>
+  </header>
+
+  <div class="wrapper">
+    {% block content %}{% endblock %}
+  </div>
+  
+</body>
+</html>
