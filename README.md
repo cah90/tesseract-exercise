@@ -16,21 +16,19 @@ Tesseract Challenge
 
 ## Getting started
 
-After pulling the code in the folder, you
-should go to the folder using your terminal and do:
+After cloning the repository, inside the folder do:
 
 ````
 npm install
 ````
 
-After downloading all the needed packages,
-do:
+Then start the application with:
 
 ````
 nodemon src/server.js
 ````
 
-This will initialize the server and you can go to http://localhost:3000/
+This will initialize the server and you can view the web application at http://localhost:3000/
 
 
 ## License
