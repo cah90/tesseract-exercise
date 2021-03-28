@@ -1,0 +1,25 @@
+{% extends "./layout.njk" %}
+
+{% block content %}
+
+<div class="row">
+  <div class="label">Nome:</div>
+  <div class="value">{{user.name}}</div>
+</div>
+
+<div class="row">
+  <div class="label">Quantidade de repositórios:</div>
+  <div class="value">{{user.public_repos}}</div>
+</div>
+
+<div class="row">
+  <div class="label">Quantidade de seguidores:</div>
+  <div class="value">{{user.followers}}</div>
+</div>
+
+<div class="row">
+  <div class="label">No Github desde:</div>
+  <div class="value">{{user.created_at}}</div>
+</div>
+
+{% endblock %}
